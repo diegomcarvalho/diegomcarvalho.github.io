@@ -1,13 +1,13 @@
 ---
 # Display name
-title: 吳健雄
+title: Diego Carvalho
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: Diego Carvalho
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Diego
+last_name: Carvalho
 
 # Status emoji
 status:
@@ -20,60 +20,53 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Chief Scientist
+role: Associate Professor
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: OpenAI
-    url: https://openai.com/
+  - name: Cefet-RJ
+    url: https://cefet-rj.br
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'd.carvalho@ieee.org'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/
+  - icon: custom/bluesky
+    url: https://bsky.app/profile/diego.carvalho.nom.br
   - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://github.com/diegomcarvalho
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
+    url: https://www.linkedin.com/in/diegomoreiracarvalho/
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/
+    url: https://scholar.google.com/citations?hl=en&user=guvvdjEAAAAJ
   - icon: academicons/orcid
-    url: https://orcid.org/
+    url: https://orcid.org/0000-0003-1592-6327
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Artificial intelligence (weightless neural networks, data mining, big data);
+  - Distributed systems (cloud and grid computing, infrastructures, distributed algorithms);
+  - Applied computing (computational intelligence applied to production and industrial engineering).
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
+  - area: PhD in Computer Science and Systems Engineering
+    institution: PESC/COPPE - Federal University of Rio de Janeiro
     date_start: 2016-01-01
     date_end: 2020-12-31
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
+      Workflow on Grid infrastructures.
     button:
       text: 'Read Thesis'
       url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
+  - area: Master in Computer Science and Systems Engineering
+    institution: PESC/COPPE - Federal University of Rio de Janeiro
     date_start: 2016-01-01
     date_end: 2020-12-31
     summary: |
-      GPA: 3.8/4.0
-
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
+      Scheduling by Edge reversal with hibernation. Mutal exclusion.
+  - area: BEng in Production Engineering
+    institution: POLI - Federal University of Rio de Janeiro
     date_start: 2016-01-01
     date_end: 2020-12-31
     summary: |
@@ -183,4 +176,12 @@ awards:
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Professor Diego Carvalho holds a tenured position as a Professor in the Department of Higher Education (Production Engineering Course - CCEPRO) at the Federal Centre for Technological Education of Rio de Janeiro (CEFET/RJ). He earned his Bachelor’s in Production Engineering from the Polytechnic School of UFRJ and his Doctorate in Systems Engineering and Computer Science from PESC/COPPE, UFRJ.
+
+Prior to his current position, Prof. Carvalho held a research role at CERN’s DELPHI Experiment, specializing in Complex Distributed Real-Time Data Acquisition and Control Systems. Besides, he also managed several object-oriented software development projects funded by CNPq, demonstrating his ability to bridge theoretical research with practical applications.
+
+From 2005 to 2011, Prof. Carvalho was at the forefront of grid computing research, participating in European Commission-sponsored e-Science initiatives like EELA, EELA-2, and GISELA. These projects leveraged the European Grid Infrastructure (EGI) to provide computational resources to researchers across Europe and Latin America. His contributions included porting applications onto the grid infrastructure and developing “Industry@Grid,” an industrial grid computing application employing stochastic optimization for product mix problem resolution.
+
+Within CEFET/RJ, Prof. Carvalho has demonstrated his leadership skills through various roles, including Head of the undergraduate Production Engineering program (both presencial and distance learning modalities), Head of the Graduate Programme in Production and Systems Engineering, and Head of the Department of Higher Education. His dedication to fiscal responsibility and strategic planning was evident during his three-year tenure as Pro-Rector for Budget and Management.
+
+Prof. Carvalho’s research interests span a broad spectrum, encompassing object-oriented design, distributed systems, network engineering, parallel architectures, grid technologies, data mining, and big data. His contributions to the field are recognized through his Senior Membership in the IEEE and the Internet Society.
