@@ -3,7 +3,7 @@
 title: Diego Carvalho
 
 # Name pronunciation (optional)
-name_pronunciation: Diego Carvalho
+#name_pronunciation: Diego Carvalho
 
 # Full name (for SEO)
 first_name: Diego
@@ -11,7 +11,7 @@ last_name: Carvalho
 
 # Status emoji
 status:
-  icon: ☕️
+  icon: 🤓
 
 # Is this the primary user of the site?
 superuser: true
@@ -20,11 +20,11 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Associate Professor
+role: Professor of Industrial Engineering
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Cefet-RJ
+  - name: Federal Centre for Engineering Studies and Technological Education - CEFET/RJ
     url: https://cefet-rj.br
 
 # Social network links
@@ -52,8 +52,8 @@ interests:
 education:
   - area: PhD in Computer Science and Systems Engineering
     institution: PESC/COPPE - Federal University of Rio de Janeiro
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+    #date_start: 2016-01-01
+    #date_end: 2020-12-31
     summary: |
       Workflow on Grid infrastructures.
     button:
@@ -61,14 +61,14 @@ education:
       url: 'https://example.com'
   - area: Master in Computer Science and Systems Engineering
     institution: PESC/COPPE - Federal University of Rio de Janeiro
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+    #date_start: 2016-01-01
+    #date_end: 2020-12-31
     summary: |
       Scheduling by Edge reversal with hibernation. Mutal exclusion.
   - area: BEng in Production Engineering
     institution: POLI - Federal University of Rio de Janeiro
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+    #date_start: 2016-01-01
+    #date_end: 2020-12-31
     summary: |
       GPA: 3.4/4.0
       
@@ -77,23 +77,45 @@ education:
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
-    company_url: ''
+  - position: Professor of Industrial Engineering
+    company_name: Federal Centre for Engineering Studies and Technological Education - CEFET/RJ
+    company_url: 'https://cefet-rj.br'
     company_logo: ''
-    date_start: 2021-01-01
+    date_start: 2006-08-01
     date_end: ''
     summary: |2-
       Responsibilities include:
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
-    company_url: ''
+  - position: Network Manager
+    company_name: Physics Institute, IF/UFRJ
+    company_url: 'https://www.if.ufrj.br'
     company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+    date_start: 1993-01-01
+    date_end: 2005-01-31
+    summary: |
+      Responsibilities include:
+      - Migrated infrastructure to a new data center
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - position: Distributed Computer Control System Expert
+    company_name: European Organization for Nuclear Research - CERN
+    company_url: 'https://cern.ch'
+    company_logo: ''
+    date_start: 1993-01-01
+    date_end: 2005-01-31
+    summary: |
+      Responsibilities include:
+      - Migrated infrastructure to a new data center
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - position: Network Manager
+    company_name: Applied Mathematics Laboratory, LABMA- IM/UFRJ
+    company_url: 'https://labma.ufrj.br/'
+    company_logo: ''
+    date_start: 1992-01-01
+    date_end: 1993-01-31
     summary: |
       Responsibilities include:
       - Migrated infrastructure to a new data center
@@ -137,9 +159,11 @@ skills:
 languages:
   - name: English
     percent: 100
-  - name: Chinese
-    percent: 75
   - name: Portuguese
+    percent: 100
+  - name: French
+    percent: 75
+  - name: Italian
     percent: 25
 
 # Awards.
