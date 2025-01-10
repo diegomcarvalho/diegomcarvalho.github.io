@@ -25,7 +25,7 @@ sections:
         text_color_light: false
         image:
           # Add your image background to `assets/media/`.
-          filename: page-turner.svg
+          filename: wave-haikei.svg
           filters:
             brightness: 1.0
           size: cover

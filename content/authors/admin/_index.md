@@ -55,7 +55,7 @@ education:
     #date_start: 2016-01-01
     #date_end: 2020-12-31
     summary: |
-      Workflow on Grid infrastructures.
+      Thesis title: Distributed Scheduling of Workflows on Computational Grids.
     button:
       text: 'Read Thesis'
       url: 'https://example.com'
@@ -64,18 +64,13 @@ education:
     #date_start: 2016-01-01
     #date_end: 2020-12-31
     summary: |
-      Scheduling by Edge reversal with hibernation. Mutal exclusion.
+      Dissertation title: Scheduling by edge reversal with varying load and topology.
   - area: BEng in Production Engineering
     institution: POLI - Federal University of Rio de Janeiro
     #date_start: 2016-01-01
     #date_end: 2020-12-31
     summary: |
-      GPA: 3.4/4.0
-      
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      Final work: Omni purpouse academic server.
 work:
   - position: Professor of Industrial Engineering
     company_name: Federal Centre for Engineering Studies and Technological Education - CEFET/RJ
@@ -198,7 +193,7 @@ awards:
       Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
 ---
 
-## About Me
+## Biography
 
 Professor Diego Carvalho holds a tenured position as a Professor in the Department of Higher Education (Production Engineering Course - CCEPRO) at the Federal Centre for Technological Education of Rio de Janeiro (CEFET/RJ). He earned his Bachelor’s in Production Engineering from the Polytechnic School of UFRJ and his Doctorate in Systems Engineering and Computer Science from PESC/COPPE, UFRJ.
 
