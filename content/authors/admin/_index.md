@@ -80,7 +80,7 @@ work:
   - position: Professor of Industrial Engineering
     company_name: Federal Centre for Engineering Studies and Technological Education - CEFET/RJ
     company_url: 'https://cefet-rj.br'
-    company_logo: ''
+    company_logo: 'logo/cefet'
     date_start: 2006-08-01
     date_end: ''
     summary: |2-
@@ -91,7 +91,7 @@ work:
   - position: Network Manager
     company_name: Physics Institute, IF/UFRJ
     company_url: 'https://www.if.ufrj.br'
-    company_logo: ''
+    company_logo: 'logo/ufrj'
     date_start: 1993-01-01
     date_end: 2005-01-31
     summary: |
@@ -102,7 +102,7 @@ work:
   - position: Distributed Computer Control System Expert
     company_name: European Organization for Nuclear Research - CERN
     company_url: 'https://cern.ch'
-    company_logo: ''
+    company_logo: 'logo/cern'
     date_start: 1993-01-01
     date_end: 2005-01-31
     summary: |
@@ -113,7 +113,7 @@ work:
   - position: Network Manager
     company_name: Applied Mathematics Laboratory, LABMA- IM/UFRJ
     company_url: 'https://labma.ufrj.br/'
-    company_logo: ''
+    company_logo: 'logo/ufrj'
     date_start: 1992-01-01
     date_end: 1993-01-31
     summary: |
