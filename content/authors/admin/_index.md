@@ -10,8 +10,8 @@ first_name: Diego
 last_name: Carvalho
 
 # Status emoji
-status:
-  icon: 🤓
+#status:
+#  icon: 
 
 # Is this the primary user of the site?
 superuser: true
@@ -25,6 +25,7 @@ role: Professor of Industrial Engineering
 # Organizations/Affiliations to display in Biography blox
 organizations:
   - name: Federal Centre for Engineering Studies and Technological Education - CEFET/RJ
+    icon: custom/cefet
     url: https://cefet-rj.br
 
 # Social network links
