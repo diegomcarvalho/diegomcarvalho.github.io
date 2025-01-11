@@ -13,7 +13,9 @@ image:
 ---
 
 
-# Nas seções abaixo são apresentadas tópicos sobre o diário de pesquisa.
+# Pandemia COVID-19
+
+Nas seções abaixo são apresentadas tópicos sobre o diário de pesquisa.
 
 ## Dia 17 de julho de 2020
 
