@@ -9,7 +9,7 @@ tags:
   - Pesquisa
   - Covid
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
+  caption: 'Image credit: [**MCTI**](https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/noticias/2023/01/boletim-de-monitoramento-genomico-apresenta-panorama-de-circulacao-viral-da-covid-19-no-brasil-nos-ultimos-50-dias)'
 ---
 
 
