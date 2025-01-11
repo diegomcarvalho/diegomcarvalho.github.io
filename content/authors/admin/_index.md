@@ -34,7 +34,8 @@ profiles:
   - icon: at-symbol
     url: 'd.carvalho@ieee.org'
     label: E-mail Me
-  - icon: custom/bluesky
+  - icon: bluesky
+    icon_pack: fab
     url: https://bsky.app/profile/diego.carvalho.nom.br
   - icon: brands/github
     url: https://github.com/diegomcarvalho
@@ -160,7 +161,7 @@ languages:
   - name: French
     percent: 75
   - name: Italian
-    percent: 25
+    percent: 50
 
 # Awards.
 #   Add/remove as many awards below as you like.
