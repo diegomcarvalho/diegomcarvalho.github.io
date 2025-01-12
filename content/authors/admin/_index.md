@@ -55,6 +55,7 @@ interests:
 education:
   - area: PhD in Computer Science and Systems Engineering
     institution: PESC/COPPE - Federal University of Rio de Janeiro
+    icon: custon/ufrj
     #date_start: 2016-01-01
     #date_end: 2020-12-31
     summary: |
@@ -64,12 +65,14 @@ education:
       url: 'https://example.com'
   - area: Master in Computer Science and Systems Engineering
     institution: PESC/COPPE - Federal University of Rio de Janeiro
+    icon: custon/ufrj
     #date_start: 2016-01-01
     #date_end: 2020-12-31
     summary: |
       Dissertation title: Scheduling by edge reversal with varying load and topology.
   - area: BEng in Production Engineering
     institution: POLI - Federal University of Rio de Janeiro
+    icon: custon/ufrj
     #date_start: 2016-01-01
     #date_end: 2020-12-31
     summary: |
@@ -79,6 +82,7 @@ work:
     company_name: Federal Centre for Engineering Studies and Technological Education - CEFET/RJ
     company_url: 'https://cefet-rj.br'
     company_logo: custom/cefet
+    icon: custom/cefet
     date_start: 2006-08-01
     date_end: ''
     summary: |2-
