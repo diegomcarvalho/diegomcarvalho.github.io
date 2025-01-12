@@ -10,8 +10,8 @@ first_name: Diego
 last_name: Carvalho
 
 # Status emoji
-#status:
-#  icon: 
+status:
+  icon: academicons/ieee
 
 # Is this the primary user of the site?
 superuser: true
@@ -34,7 +34,7 @@ profiles:
   - icon: at-symbol
     url: 'd.carvalho@ieee.org'
     label: E-mail Me
-  - icon: fa-bluesky
+  - icon: brands/bluesky
     url: https://bsky.app/profile/diego.carvalho.nom.br
   - icon: brands/github
     url: https://github.com/diegomcarvalho
