@@ -34,8 +34,7 @@ profiles:
   - icon: at-symbol
     url: 'd.carvalho@ieee.org'
     label: E-mail Me
-  - icon: bluesky
-    icon_pack: fab
+  - icon: fa-bluesky
     url: https://bsky.app/profile/diego.carvalho.nom.br
   - icon: brands/github
     url: https://github.com/diegomcarvalho
