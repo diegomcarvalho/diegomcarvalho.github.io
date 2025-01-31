@@ -24,7 +24,7 @@ role: Professor of Production and Systems Engineering
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Federal Centre for Engineering Studies and Technological Education - CEFET/RJ
+  - name: CEFET/RJ
     icon: custom/cefet
     url: https://cefet-rj.br
 
@@ -121,13 +121,13 @@ skills:
     items:
       - name: Python
         description: ''
-        percent: 80
+        percent: 100
         icon: code-bracket
       - name: Data Science
         description: ''
         percent: 100
         icon: chart-bar
-      - name: SQL
+      - name: C++
         description: ''
         percent: 40
         icon: circle-stack
