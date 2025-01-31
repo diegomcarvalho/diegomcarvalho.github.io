@@ -60,9 +60,9 @@ education:
     #date_end: 2020-12-31
     summary: |
       Thesis title: Distributed Scheduling of Workflows on Computational Grids.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
+    #button:
+    #  text: 'Read Thesis'
+    #  url: 'https://example.com'
   - area: Master in Computer Science and Systems Engineering
     institution: PESC/COPPE - Federal University of Rio de Janeiro
     icon: custon/ufrj
@@ -86,43 +86,33 @@ work:
     date_start: 2006-08-01
     date_end: ''
     summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      Responsibilities:
+      - Since 2023: Head of the Higher Education Department.
+      - 2019-2021: Head of the Production Engineering Course Coordination of the Higher Education Department.
+      - 2016-2018: Head of Production and System Engineering Graduate Program.
+      - 2015-2016: Head of the Production Engineering Distance Course Coordination of the Higher Education Department.
+      - 2011-2014: Deputy Director of Management and Budget
   - position: Network Manager
     company_name: Physics Institute, IF/UFRJ
     company_url: 'https://www.if.ufrj.br'
     company_logo: custom/ufrj
     date_start: 1993-01-01
     date_end: 2005-01-31
-    summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+    #summary: |
   - position: Distributed Computer Control System Expert
     company_name: European Organization for Nuclear Research - CERN
     company_url: 'https://cern.ch'
     company_logo: custom/cern
     date_start: 1993-01-01
     date_end: 2005-01-31
-    summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+    #summary: |
   - position: Network Manager
     company_name: Applied Mathematics Laboratory, LABMA- IM/UFRJ
     company_url: 'https://labma.ufrj.br/'
     company_logo: 'logo/ufrj'
     date_start: 1992-01-01
     date_end: 1993-01-31
-    summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+    #summary: |
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -145,14 +135,10 @@ skills:
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking
+      - name: Languages
         description: ''
         percent: 60
         icon: person-simple-walk
-      - name: Cats
-        description: ''
-        percent: 100
-        icon: cat
       - name: Photography
         description: ''
         percent: 80
@@ -165,6 +151,8 @@ languages:
     percent: 100
   - name: French
     percent: 75
+  - name: Spanish
+    percent: 50
   - name: Italian
     percent: 50
 
@@ -172,32 +160,32 @@ languages:
 #   Add/remove as many awards below as you like.
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
-awards:
-  - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: '2023-11-25'
-    awarder: Coursera
-    icon: coursera
-    summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: '2023-07-01'
-    awarder: edX
-    icon: edx
-    summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: 'Object-Oriented Programming in R'
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
-    date: '2023-01-21'
-    awarder: datacamp
-    icon: datacamp
-    summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+# awards:
+#   - title: Neural Networks and Deep Learning
+#     url: https://www.coursera.org/learn/neural-networks-deep-learning
+#     date: '2023-11-25'
+#     awarder: Coursera
+#     icon: coursera
+#     summary: |
+#       I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
+#   - title: Blockchain Fundamentals
+#     url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
+#     date: '2023-07-01'
+#     awarder: edX
+#     icon: edx
+#     summary: |
+#       Learned:
+#       - Synthesize your own blockchain solutions
+#       - Gain an in-depth understanding of the specific mechanics of Bitcoin
+#       - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
+#   - title: 'Object-Oriented Programming in R'
+#     url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
+#     certificate_url: https://www.datacamp.com
+#     date: '2023-01-21'
+#     awarder: datacamp
+#     icon: datacamp
+#     summary: |
+#       Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
 ---
 
 ## Biography
