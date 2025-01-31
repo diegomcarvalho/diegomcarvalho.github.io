@@ -57,6 +57,7 @@ sections:
     design:
       # Choose a layout view
       view: date-title-summary
+      columns: 2
       # Reduce spacing
       spacing:
         padding: [0, 0, 0, 0]

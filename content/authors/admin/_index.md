@@ -32,10 +32,10 @@ organizations:
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'diego.carvalho@cefet-rj.br'
+    url: 'mailto:diego.carvalho@cefet-rj.br'
     label: E-mail Me
   - icon: academicons/ieee
-    url: 'd.carvalho@ieee.org'
+    url: 'mailto:d.carvalho@ieee.org'
   - icon: brands/bluesky
     url: https://bsky.app/profile/diego.carvalho.nom.br
   - icon: brands/github
