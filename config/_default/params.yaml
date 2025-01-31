@@ -9,7 +9,7 @@ appearance:
   color: blue
   theme_day: minimal
   theme_night: minimal
-  font: minimal
+  font: classical
   font_size: m
 
 
