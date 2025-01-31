@@ -35,7 +35,7 @@ sections:
     id: news
     content:
       title: Posts
-      subtitle: ''
+      subtitle: 'Just opinions...'
       text: ''
       # Page type to display. E.g. post, talk, publication...
       page_type: post
