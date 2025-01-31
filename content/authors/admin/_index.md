@@ -20,7 +20,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Professor of Industrial Engineering
+role: Professor of Production and Systems Engineering
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
@@ -78,7 +78,7 @@ education:
     summary: |
       Final work: Omni purpouse academic server.
 work:
-  - position: Professor of Industrial Engineering
+  - position: Professor of Production and Systems Engineering
     company_name: Federal Centre for Engineering Studies and Technological Education - CEFET/RJ
     company_url: 'https://cefet-rj.br'
     company_logo: custom/cefet
