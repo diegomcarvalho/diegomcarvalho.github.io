@@ -19,10 +19,10 @@ sections:
         text: Download CV
         url: uploads/resume.pdf
     design:
-      css_class: light #dark
-      background:
-        color: white #black
-        text_color_light: false
+#      css_class: light #dark
+#      background:
+#        color: white #black
+#        text_color_light: false
 #        image:
 #          # Add your image background to `assets/media/`.
 #          filename: wave-haikei.svg
