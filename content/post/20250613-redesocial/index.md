@@ -7,6 +7,9 @@ authors:
 tags:
   - Political
 ---
+
+![Redes Sociais](redesocial.png)
+
 Venho mantendo um longo período de silêncio nas redes sociais, porém hoje presenciei um acontecimento significativo que merece ser compartilhado. Antes de revelar tal ocorrência, gostaria de propor uma reflexão: qual é verdadeiramente o papel e a natureza de uma organização midiática que detém uma concessão governamental para operar um canal televisivo?
 Analisando esse cenário, percebemos que o público brasileiro compreende tais empresas como entidades plenamente responsáveis por seu conteúdo transmitido, estando sujeitas a processos judiciais relacionados a qualquer material veiculado em sua programação. Interessante notar que, embora operem sob regime de concessão pública, estas organizações preservam a autonomia para estruturar sua programação e selecionar criteriosamente o conteúdo que será apresentado aos telespectadores, pois monetizam inserções em sua programação.
 Esta prerrogativa de determinar a grade de programação e selecionar o conteúdo transmitido acarreta, naturalmente, em responsabilidades legais, tornando estas empresas juridicamente responsáveis por suas escolhas editoriais.
