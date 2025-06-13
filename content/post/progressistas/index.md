@@ -1,3 +1,14 @@
+---
+title: A nova direita depois do Bolsonarismo
+summary: Um breve post sobre a situação atual da direita brasileira.
+date: 2025-06-12
+authors:
+  - admin
+tags:
+  - Political
+---
+
+
 Recentemente, testemunhamos uma reveladora manifestação política quando o Senador Ciro Nogueira apresentou o programa do Progressistas, oferecendo um panorama esclarecedor sobre a metamorfose ideológica da direita brasileira no contexto pós-bolsonarista.
 
 Para uma análise mais aprofundada, é imperativo examinar a evolução histórica do Progressistas, agremiação partidária que consistentemente manteve uma posição proeminente no cenário conservador nacional. Sua relevância institucional manifestou-se em momentos cruciais, como na presidência da Câmara dos Deputados sob Severino Cavalcante, aquele que queria a diretoria que fura poços, além de ter abrigado personalidades emblemáticas como Paulo Maluf. Significativamente, toda a estrutura política conservadora contemporânea encontra suas raízes na ARENA (Aliança Renovadora Nacional), instrumento político-partidário que vendeu sustentação ao regime militar brasileiro.
