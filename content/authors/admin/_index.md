@@ -47,7 +47,7 @@ profiles:
   - icon: academicons/orcid
     url: https://orcid.org/0000-0003-1592-6327
   - icon: academicons/cv
-    url: http://lattes.cnpq.br/3413821323159487
+    url: https://lattes.cnpq.br/3413821323159487
 
 interests:
   - Artificial intelligence (weightless neural networks, data mining, big data);
