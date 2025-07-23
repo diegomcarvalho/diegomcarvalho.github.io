@@ -48,7 +48,7 @@ profiles:
     url: https://orcid.org/0000-0003-1592-6327
   - icon: academicons/cv
     url: https://lattes.cnpq.br/3413821323159487
-  - icon: address-card
+  - icon: hero/credit-card
     url: https://diego.carvalho.nom.br/uploads/IBbA.vcf
 
 interests:
