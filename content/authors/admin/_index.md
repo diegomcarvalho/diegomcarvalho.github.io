@@ -91,11 +91,12 @@ work:
     date_end: ''
     summary: |2-
       Responsibilities:
-      - Since 2023: Head of the Higher Education Department.
+      - Since 2025: Director of Strategic Planning (Chief Strategy Officer)
+      - 2023-2025: Head of the Higher Education Department.
       - 2019-2021: Head of the Production Engineering Course Coordination of the Higher Education Department.
       - 2016-2018: Head of Production and System Engineering Graduate Program.
       - 2015-2016: Head of the Production Engineering Distance Course Coordination of the Higher Education Department.
-      - 2011-2014: Deputy Director of Management and Budget
+      - 2011-2014: Director of Management and Budget (Chief Administrative Officer)
   - position: Network Manager
     company_name: Physics Institute, IF/UFRJ
     company_url: 'https://www.if.ufrj.br'
