@@ -3,8 +3,8 @@ title: "Diego Carvalho"
 image: media/dc-01.jpg
 toc: false
 about:
-  template: solana
-  image-shape: rounded
+  template: jolla
+  image-shape: round
   image-width: 12em
   links:
     - text: "{{< ai google-scholar >}} Google Scholar"

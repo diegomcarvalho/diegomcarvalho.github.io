@@ -19,7 +19,7 @@ title: "Experience"
 
 - Distributed Computer Control System Expert
   - European Organization for Nuclear Research - CERN
-  - January 1993 – January 2005
+  - January 1993 – January 1999
 
 - Network Manager
   - Applied Mathematics Laboratory, LABMA- IM/UFRJ
