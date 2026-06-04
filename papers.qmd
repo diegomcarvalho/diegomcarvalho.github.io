@@ -1,0 +1,89 @@
+---
+title: "My publications"
+image: media/dc-01.jpg
+---
+
+These are selected manuscripts, and you can find all my publications on [my Lattes résumé page](https://lattes.cnpq.br/3413821323159487)^[Lattes résumé is a Brazilian Research Council initiative, and Brazilian researchers must keep the information on it up to date.].
+
+
+[1] R. Parracho et al., "Leveraging Large Language Models for Time Series Prediction on Low-Frequency Data", in Anais do XL Simpósio Brasileiro de Banco de Dados (SBBD 2025), Brasil: Sociedade Brasileira de Computação - SBC, Sep. 2025, pp. 196–208. [doi: 10.5753/sbbd.2025.247062](https://doi.org/10.5753/sbbd.2025.247062).
+
+[2] A. C. Cosenza, C. G. De Souza, D. Carvalho, R. G. Barbastefano, G. Santos, and L. C. F. M. Barbosa, "Green human resource management across literature review: performance, patterns, contents and challenges of an emerging research", ER, vol. 47, no. 3/4, pp. 574–601, Jun. 2025, [doi: 10.1108/ER-07-2024-0377](https://doi.org/10.1108/ER-07-2024-0377).
+
+[3] D. Carvalho et al., "Dataset on bus mobility and environmental indicators from Rio de Janeiro", Sci Data, vol. 12, no. 1, p. 1569, Sep. 2025, [doi: 10.1038/s41597-025-05755-6](https://doi.org/10.1038/s41597-025-05755-6).
+
+[4] R. Bezerra Barbosa, D. Leonel Cadette Dutra, P. Machado Vieira Lima, D. Carvalho, and F. Maia Galvão França, "Updating KernelCanvas for weightless graph classification", Neurocomputing, vol. 646, p. 130458, Sep. 2025, [doi: 10.1016/j.neucom.2025.130458](https://doi.org/10.1016/j.neucom.2025.130458).
+
+[5] R. Soares et al., "Análise de um Software de Bioinformática em Arquitetura de Memória Compartilhada no Supercomputador Santos Dumont com o Intel VTune", in Anais da IX Escola Regional de Alto Desempenho do Rio de Janeiro (ERAD-RJ 2024), Brasil: Sociedade Brasileira de Computação - SBC, Nov. 2024, pp. 22–24. [doi: 10.5753/eradrj.2024.4401](https://doi.org/10.5753/eradrj.2024.4401).
+
+[6] F. Santos, L. Giusti, D. Carvalho, E. Ogasawara, and J. Soares, "Avaliação de Desvios de Conceitos Reais e Virtuais nos Atrasos de Voos em São Paulo nos Períodos Pré, Intra e Pós-Pandemia", in Anais do XXXIX Simpósio Brasileiro de Banco de Dados (SBBD 2024), Brasil: Sociedade Brasileira de Computação - SBC, Oct. 2024, pp. 827–833. [doi: 10.5753/sbbd.2024.243111](https://doi.org/10.5753/sbbd.2024.243111).
+
+[7] A. Mello et al., "D-AI2-M: Ethanol Production Forecasting in Brazil Using Data-Centric Artificial Intelligence Methodology", IEEE Latin Am. Trans., vol. 22, no. 11, pp. 899–910, Nov. 2024, [doi: 10.1109/TLA.2024.10735449](https://doi.org/10.1109/TLA.2024.10735449).
+
+[8] A. Mello, D. Carvalho, and E. Ogasawara, "Predição da Produção de Etanol nos Estados Brasileiros", in Anais do XVIII Brazilian e-Science Workshop (BRESCI 2024), Brasil: Sociedade Brasileira de Computação - SBC, Oct. 2024, pp. 120–127. [doi: 10.5753/bresci.2024.243818](https://doi.org/10.5753/bresci.2024.243818).
+
+[9] A. Emidio et al., "Desempenho de Workflows Científicos de Transcriptômica em Arquiteturas de Memória Distribuída e Compartilhada do Santos Dumont", in Anais Estendidos do XXV Simpósio em Sistemas Computacionais de Alto Desempenho (SSCAD Estendido 2024), Brasil: Sociedade Brasileira de Computação - SBC, Oct. 2024, pp. 97–104. [doi: 10.5753/sscad_estendido.2024.244368](https://doi.org/10.5753/sscad_estendido.2024.244368).
+
+[10] A. Emidio, R. Soares, L. Cruz, K. Ocaña, D. Carvalho, and C. Osthoff, "Análise Computacional de uma Ferramenta de Bioinformática em Arquiteturas de Memória Compartilhada do Santos Dumont Usando Perfilador Intel Vtune", in Anais da IX Escola Regional de Alto Desempenho do Rio de Janeiro (ERAD-RJ 2024), Brasil: Sociedade Brasileira de Computação - SBC, Nov. 2024, pp. 16–18. [doi: 10.5753/eradrj.2024.4391](https://doi.org/10.5753/eradrj.2024.4391).
+
+[11] B. O. Barbosa et al., "Análise de Modelos Baseados em WiSARD para Classificação de Trajetórias de Ônibus no Contexto da Mobilidade Urbana", in Anais do XVIII Brazilian e-Science Workshop (BRESCI 2024), Brasil: Sociedade Brasileira de Computação - SBC, Oct. 2024, pp. 1–7. [doi: 10.5753/bresci.2024.243296](https://doi.org/10.5753/bresci.2024.243296).
+
+[12] F. Alexandrino, C. Pacheco, D. Carvalho, and E. Ogasawara, "Aumento de dados e suavização integrada para predição de séries temporais baseada em aprendizado de máquina", in Anais do XVIII Brazilian e-Science Workshop (BRESCI 2024), Brasil: Sociedade Brasileira de Computação - SBC, Oct. 2024, pp. 32–39. [doi: 10.5753/bresci.2024.244100](https://doi.org/10.5753/bresci.2024.244100).
+
+[13] R. Terra, K. Ocaña, C. Osthoff, L. Cruz, P. Navaux, and D. Carvalho, "Framework para a Construção de Redes Filogenéticas em Ambiente de Computação de Alto Desempenho", in Anais do XXIII Simpósio em Sistemas Computacionais de Alto Desempenho (SSCAD 2022), Brasil: Sociedade Brasileira de Computação, Oct. 2022, pp. 73–84. [doi: 10.5753/wscad.2022.226366](https://doi.org/10.5753/wscad.2022.226366).
+
+[14] B. Dos Santos De Assis, E. Ogasawara, R. Barbastefano, and D. Carvalho, "Frequent pattern mining augmented by social network parameters for measuring graduation and dropout time factors: A case study on a production engineering course", Socio-Economic Planning Sciences, vol. 81, p. 101200, Jun. 2022, [doi: 10.1016/j.seps.2021.101200](https://doi.org/10.1016/j.seps.2021.101200).
+
+[15] R. Terra et al., "Gerência e Análises de Workflows aplicados a Redes Filogenéticas de Genomas de Dengue no Brasil", in Anais do XV Brazilian e-Science Workshop (BRESCI 2021), Brasil: Sociedade Brasileira de Computação, Jul. 2021, pp. 49–56. [doi: 10.5753/bresci.2021.15788](https://doi.org/10.5753/bresci.2021.15788).
+
+[16] L. Cruz et al., "Workflows Científicos de RNA-Seq em Ambientes Distribuídos de Alto Desempenho: Otimização de Desempenho e Análises de Dados de Expressão Diferencial de Genes", in Anais do XV Brazilian e-Science Workshop (BRESCI 2021), Brasil: Sociedade Brasileira de Computação, Jul. 2021, pp. 57–64. [doi: 10.5753/bresci.2021.15789](https://doi.org/10.5753/bresci.2021.15789).
+
+[17] L. Carvalho et al., "On the relevance of data science for flight delay research: a systematic review", Transport Reviews, vol. 41, no. 4, pp. 499–528, Jul. 2021, [doi: 10.1080/01441647.2020.1861123](https://doi.org/10.1080/01441647.2020.1861123).
+
+[18] R. Barbosa, D. Carvalho, P. Lima, and F. França, "A bag of nodes primer on weightless graph classification", in ESANN 2021 proceedings, Online event (Bruges, Belgium): Ciaco - i6doc.com, 2021, pp. 659–664. [doi: 10.14428/esann/2021.ES2021-107](https://doi.org/10.14428/esann/2021.ES2021-107).
+
+[19] P. Gavillet, B. M. Marechal, and D. Carvalho, "The fight against COVID-19 in the age of Connected Medical Sensors and Computational Grids", Open Science Framework, preprint, Nov. 2020, [doi: 10.31219/osf.io/bjmqz](https://doi.org/10.31219/osf.io/bjmqz).
+
+[20] D. Carvalho, R. Barbastefano, and L. Pumar, "Bus transport network analysis in Rio de Janeiro based on topological models using Social Networks", Open Science Framework, preprint, Nov. 2020, [doi: 10.31219/osf.io/azv63](https://doi.org/10.31219/osf.io/azv63).
+
+[21] A. B. Cruz et al., "Detecção de Anomalias Frequentes no Transporte Rodoviário Urbano", in Anais do XXXIII Simpósio Brasileiro de Banco de Dados (SBBD 2018), Brasil: Sociedade Brasileira de Computação - SBC, Aug. 2018, pp. 271–276. [doi: 10.5753/sbbd.2018.22242](https://doi.org/10.5753/sbbd.2018.22242).
+
+[22] Centro Federal de Educação Tecnológica Celso Suckow da Fonseca et al., "A holistic approach to challenges in Industry 4.0", in Anais da V Escola Regional de Sistemas de Informação do Rio de Janeiro, Nova Friburgo: Sociedade Brasileira de Computação - SBC, Oct. 2018, pp. 24–29. [doi: 10.5753/ersirj.2018.4651](https://doi.org/10.5753/ersirj.2018.4651).
+
+[23] R. Barbosa, D. O. Cardoso, D. Carvalho, and F. M. G. França, "Weightless neuro-symbolic GPS trajectory classification", Neurocomputing, vol. 298, pp. 100–108, Jul. 2018, [doi: 10.1016/j.neucom.2017.11.075](https://doi.org/10.1016/j.neucom.2017.11.075).
+
+[24] J. H. D. Moura, P. A. D. Sousa, P. F. Wanke, R. G. Barbastefano, and D. M. D. A. Carvalho, "Análise da integração das bicicletas do sistema Bike Rio localizadas na zona sul do Rio de Janeiro com a rede de ônibus da cidade", presented at the ENEGEP 2017 - Encontro Nacional de Engenharia de Produção, JOINVILLE/SC - BRASIL, Nov. 2017. [doi: 10.14488/ENEGEP2017_TN_SD_249_435_34898](https://doi.org/10.14488/ENEGEP2017_TN_SD_249_435_34898).
+
+[25] L. Cruz et al., "Evaluation of the Influence of the Santos Dumont Computational Resources of the Supercomputer in the Execution of Data-Intensive Bioinformatics Experiments", 2017.
+
+[26] R. Barbosa, D. O. Cardoso, D. Carvalho, and F. M. G. Franca, "A neuro-symbolic approach to GPS trajectory classification", Computational Intelligence, 2017.
+
+[27] A. Sternberg, D. Carvalho, L. Murta, J. Soares, and E. Ogasawara, "An analysis of Brazilian flight delays based on frequent patterns", Transportation Research Part E: Logistics and Transportation Review, vol. 95, pp. 282–298, Nov. 2016, [doi: 10.1016/j.tre.2016.09.013](https://doi.org/10.1016/j.tre.2016.09.013).
+
+[28] C. Cerqueira, J. Costa, and D. Carvalho, "Aplicação de Análise de Redes Sociais em uma Cadeia de Suprimentos de uma Epresa do Setor Elétrico Brasileiro", S&G, vol. 9, no. 4, pp. 418–429, 2014, [doi: 10.7177/sg.2014.v9.n4.a1](https://doi.org/10.7177/sg.2014.v9.n4.a1).
+
+[29] D. Carvalho, L. Rossi De Souza, and R. Garcia Barbastefano, "Stochastic Product-Mix Selection with Grid Computing", in 2012 Seventh International Conference on P2P, Parallel, Grid, Cloud and Internet Computing, Victoria, BC, Canada: IEEE, Nov. 2012, pp. 297–302, [doi: 10.1109/3PGCIC.2012.65](https://doi.org/10.1109/3PGCIC.2012.65).
+
+[30] F. Brasileiro et al., "Using a Simple Prioritisation Mechanism to Effectively Interoperate Service and Opportunistic Grids in the EELA-2 e-Infrastructure", J Grid Computing, vol. 9, no. 2, pp. 241–257, Jun. 2011, [doi: 10.1007/s10723-010-9177-5](https://doi.org/10.1007/s10723-010-9177-5).
+
+[31] G. Andronico et al., "e-Infrastructures for e-Science: A Global View", J Grid Computing, vol. 9, no. 2, pp. 155–184, Jun. 2011, [doi: 10.1007/s10723-011-9187-y](https://doi.org/10.1007/s10723-011-9187-y).
+
+[32] O. Lengerke, D. Carvalho, P. M. V. Lima, M. S. Dutra, F. Mora-Camino, and F. M. G. França, “CONTROLE DISTRIBUÍDO DE SISTEMAS JOB SHOP USANDO ESCALONAMENTO POR REVERSÃO DE ARESTAS,” 2008.
+
+[33] D. Carvalho, P. R. Belo, A. Duarte, and I. Dutra, “Mining the EELA-2 e-infrastructure,” 2008.
+
+[34] R. Abarca et al., “Building a Network in Latin America: e-Infrastructure and Applications,” Proceedings of the Spanish Conference on e-Science Grid Computing, pp. 83–96, 2008.
+
+[35] B. Marechal, P. H. R. Bello, and D. Carvalho, "Building a Grid in Latin America: The EELA Project e-Infrastructure", in Seventh IEEE International Symposium on Cluster Computing and the Grid (CCGrid '07), Rio De Janeiro: IEEE, May 2007, pp. 835–839. [doi: 10.1109/CCGRID.2007.30](https://doi.org/10.1109/CCGRID.2007.30).
+
+[36] B. Marechal, P. H. R. Bello, D. Carvalho, and R. Mayo, "Applications ported to the EELA e-Infrastructure", in Seventh IEEE International Symposium on Cluster Computing and the Grid (CCGrid '07), Rio de Janeiro, Brazil: IEEE, May 2007, pp. 852–857. [doi: 10.1109/CCGRID.2007.24](https://doi.org/10.1109/CCGRID.2007.24).
+
+[37] I. Dutra et al., “E-Learning Applications in the EELA Project,” 2007.
+
+[38] A. Duarte, D. Carvalho, and P. H. R. Bello, “Operating a Transatlantic Grid Infrastructure,” 2007.
+
+[39] D. Carvalho, F. Protti, M. De Gregorio, and F. M. G. França, "A Novel Distributed Scheduling Algorithm for Resource Sharing Under Near-Heavy Load", in Principles of Distributed Systems, vol. 3544, T. Higashino, Ed., in Lecture Notes in Computer Science, vol. 3544. , Berlin, Heidelberg: Springer Berlin Heidelberg, 2005, pp. 431–442. [doi: 10.1007/11516798_31](https://doi.org/10.1007/11516798_31).
+
+[40] M. DöNSZELMANN, D. Carvalho, and L. M. Mundim, “ADVANCED USE OF WOLRD-WIDE WEB IN THE ONLINE SYSTEM OF DELPHIa,” 1996.
+
+[41] D. Carvalho et al., “On the relevance of efficient, integrated computer and network monitoring in HEP distributed online environment,” in Proceedings, 8th International Conference on Computing in High-Energy and Nuclear Physics (CHEP 1995) : Rio de Janeiro, Brazil, September 18-22, 1995, New Jersey: World Scientific, 1996.

@@ -1,0 +1,18 @@
+---
+title: "Notas do ENEM dos aprovados no Sisu 2025"
+description: "Gráficos para compartilhar"
+author: "Diego Carvalho"
+date: "2025-01-30"
+categories:
+  - education
+  - brazil
+  - analysis
+---
+
+Abaixo, podemos observar o histograma das notas no ENEM de todos os candidatos aprovados no Sisu de 2025.
+
+![histograma](g1.webp)
+
+Abaixo, podemos observar os gráficos violino das categorias dos aprovados.
+
+![violin](g2.webp)

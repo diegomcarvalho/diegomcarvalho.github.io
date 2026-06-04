@@ -1,0 +1,13 @@
+---
+title: "About"
+---
+
+Professor Diego Carvalho holds a tenured position as a Professor in the Department of Higher Education (Production Engineering Course - CCEPRO) at the Federal Centre for Technological Education of Rio de Janeiro (CEFET/RJ). He earned his Bachelor’s in Production Engineering from the Polytechnic School of UFRJ and his Doctorate in Systems Engineering and Computer Science from PESC/COPPE, UFRJ.
+
+Prior to his current position, Prof. Carvalho held a research role at CERN’s DELPHI Experiment, specializing in Complex Distributed Real-Time Data Acquisition and Control Systems. Besides, he also managed several object-oriented software development projects funded by CNPq, demonstrating his ability to bridge theoretical research with practical applications.
+
+From 2005 to 2011, Prof. Carvalho was at the forefront of grid computing research, participating in European Commission-sponsored e-Science initiatives like EELA, EELA-2, and GISELA. These projects leveraged the European Grid Infrastructure (EGI) to provide computational resources to researchers across Europe and Latin America. His contributions included porting applications to the grid infrastructure and developing “Industry@Grid,” an industrial grid computing application that employs stochastic optimization to resolve product mix problems.
+
+Within CEFET/RJ, Prof. Carvalho has demonstrated his leadership skills through various roles, including Head of the undergraduate Production Engineering program (both presencial and distance learning modalities), Head of the Graduate Programme in Production and Systems Engineering, and Head of the Department of Higher Education. His dedication to fiscal responsibility and strategic planning was evident during his three-year tenure as Pro-Rector for Budget and Management and Pro-Rector of Strategic Management.
+
+Prof. Carvalho’s research interests span a broad spectrum, encompassing object-oriented design, distributed systems, network engineering, parallel architectures, grid technologies, data mining, and big data. His contributions to the field are recognized through his Senior Membership in the IEEE and the Internet Society.

@@ -1,0 +1,27 @@
+---
+title: "Diego Carvalho"
+image: media/dc-01.jpg
+toc: false
+about:
+  template: solana
+  image-shape: rounded
+  image-width: 12em
+  links:
+    - text: "{{< ai google-scholar >}} Google Scholar"
+      href: https://scholar.google.com/citations?hl=en&user=guvvdjEAAAAJ
+      target: _blank
+    - text: "{{< ai orcid >}} ORCID"
+      href: https://orcid.org/0000-0003-1592-6327
+      target: _blank
+    - text: "{{< ai scopus >}} Scopus"
+      href: http://www.scopus.com/inward/authorDetails.url?authorID=56548303600
+      target: _blank
+    - text: "{{< ai clarivate >}} Web of Science"
+      href: http://www.researcherid.com/rid/E-2722-2013
+      target: _blank
+    - text: "{{< ai sciprofiles >}} SciProfiles"
+      href: https://sciprofiles.com/profile/667510
+      target: _blank
+---
+
+Diego Carvalho is a tenured Professor in the Department of Higher Education at Cefet/RJ, where he teaches in the Production Engineering Course. Holding both a Bachelor's degree (UFRJ's Polytechnic School) and a Doctorate in Systems Engineering and Computer Science from PESC/COPPE/UFRJ, he has demonstrated a consistent ability to connect rigorous research with real-world impact. His extensive work includes research at CERN’s DELPHI Experiment, participation in European Commission grid computing initiatives (such as EELA and GISELA), and various CNPq-supported software development projects. Beyond research, he has held several senior leadership roles at Cefet/RJ, notably serving as Head of the Production Engineering program, Head of the Graduate Program in Production and Systems Engineering, and Pro-Rector for both Budget & Management and Strategic Management. A specialist in distributed systems, parallel architectures, grid technologies, data mining, and big data, he has contributions recognized by his Senior Membership status with both the IEEE and the Internet Society.

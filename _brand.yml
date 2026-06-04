@@ -1,0 +1,13 @@
+typography:
+  fonts:
+    - family: Archivo
+      source: google
+    - family: Asap
+      source: google
+    - family: "Fira Code"
+      source: google
+    - family: JetBrains Mono
+      source: google
+  base: Archivo
+  headings: Asap
+  monospace: JetBrains Mono

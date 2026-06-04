@@ -1,0 +1,53 @@
+project:
+  type: website
+  output-dir: docs
+website:
+  title: "Diego Carvalho"
+  site-url: "https://diego.carvalho.nom.br"
+  navbar:
+    search: true
+    title: false
+    left:
+      - href: index.qmd
+        text: Home
+        icon: house-check
+      - href: about.qmd
+        text: About
+        icon: file-person
+      - href: blog.qmd
+        text: Blog
+        icon: stack
+      - href: papers.qmd
+        text: Papers
+        icon: book
+      - href: experience.qmd
+        text: Experience
+        icon: briefcase
+    right:
+      - text: LinkedIn
+        href: https://www.linkedin.com/in/diegomoreiracarvalho/
+        icon: linkedin
+        target: _blank
+      - text: GitHub
+        href: https://github.com/diegomcarvalho
+        icon: github
+        target: _blank
+      - text: BlueSky
+        href: https://bsky.app/profile/diego.carvalho.nom.br
+        icon: bluesky
+        target: _blank
+      - text: Email
+        icon: envelope
+        href: mailto:diego.carvalho@cefet-rj.br
+  page-footer:
+    background: light # or `dark` or omit this option altogether (footer color will match page body color)
+    left: Copyright &copy; 2026, Diego Carvalho
+    right: Il sudore non é santo, ma fa miracolo
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    toc: true

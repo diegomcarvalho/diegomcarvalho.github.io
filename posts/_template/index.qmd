@@ -1,0 +1,12 @@
+---
+title: ""
+description: ""
+author: "Diego Carvalho"
+date: "2024-07-20"
+categories:
+  - news
+  - brazil
+  - analysis
+---
+
+texto
