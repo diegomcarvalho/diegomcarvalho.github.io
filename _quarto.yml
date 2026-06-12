@@ -50,4 +50,8 @@ format:
       - cosmo
       - brand
     css: styles.css
+    include-in-header:
+      - text: |
+          <script data-goatcounter="https://diegocarvalho.goatcounter.com/count"
+          async src="//gc.zgo.at/count.js"></script>
     toc: true
