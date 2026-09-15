@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#25D366">
+<title>WhatsApp Agendado via TickTick</title>
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icon.svg">
+<style>
+  :root {
+    --wa-green: #25D366;
+    --wa-dark: #075E54;
+    --tk-red: #FF6161;
+    --bg: #0f1115;
+    --card: #171a21;
+    --text: #eef0f2;
+    --muted: #9aa2ab;
+    --error: #ff6b6b;
+    --ok: #4caf50;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+  }
+  header {
+    padding: 20px 16px 12px;
+    text-align: center;
+  }
+  header h1 {
+    font-size: 1.25rem;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+  }
+  header p {
+    color: var(--muted);
+    font-size: 0.85rem;
+    margin: 6px 0 0;
+  }
+  main {
+    max-width: 480px;
+    margin: 0 auto;
+    padding: 0 16px 40px;
+  }
+  .card {
+    background: var(--card);
+    border-radius: 14px;
+    padding: 18px;
+    margin-bottom: 16px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+  }
+  label {
+    display: block;
+    font-size: 0.85rem;
+    color: var(--muted);
+    margin-bottom: 6px;
+    margin-top: 14px;
+  }
+  label:first-child { margin-top: 0; }
+  input, textarea, select {
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #2a2e38;
+    background: #0f1115;
+    color: var(--text);
+    font-size: 1rem;
+    font-family: inherit;
+  }
+  textarea { resize: vertical; min-height: 90px; }
+  input:focus, textarea:focus, select:focus {
+    outline: none;
+    border-color: var(--wa-green);
+  }
+  .row { display: flex; gap: 10px; }
+  .row > div { flex: 1; }
+  button {
+    width: 100%;
+    padding: 14px;
+    border-radius: 10px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 16px;
+    transition: opacity 0.15s;
+  }
+  button:active { opacity: 0.8; }
+  .btn-primary { background: var(--tk-red); color: white; }
+  .btn-secondary { background: #2a2e38; color: var(--text); }
+  .btn-wa { background: var(--wa-green); color: white; }
+  .btn-ghost {
+    background: transparent;
+    color: var(--muted);
+    border: 1px solid #2a2e38;
+    font-weight: 400;
+    font-size: 0.85rem;
+    padding: 10px;
+  }
+  .status {
+    margin-top: 14px;
+    padding: 10px 12px;
+    border-radius: 8px;
+    font-size: 0.85rem;
+    display: none;
+  }
+  .status.show { display: block; }
+  .status.ok { background: rgba(76,175,80,0.15); color: var(--ok); border: 1px solid rgba(76,175,80,0.3); }
+  .status.error { background: rgba(255,107,107,0.15); color: var(--error); border: 1px solid rgba(255,107,107,0.3); }
+  .status.info { background: rgba(154,162,171,0.12); color: var(--muted); border: 1px solid #2a2e38; }
+  .help {
+    font-size: 0.75rem;
+    color: var(--muted);
+    margin-top: 6px;
+    line-height: 1.4;
+  }
+  .help a { color: var(--wa-green); }
+  details summary {
+    cursor: pointer;
+    color: var(--muted);
+    font-size: 0.85rem;
+    padding: 4px 0;
+  }
+  .task-list {
+    margin-top: 10px;
+  }
+  .task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #2a2e38;
+    font-size: 0.85rem;
+  }
+  .task-item:last-child { border-bottom: none; }
+  .task-item a { color: var(--wa-green); text-decoration: none; }
+  .contact-select-btn {
+    background: #2a2e38;
+    color: var(--text);
+    border: 1px solid #3a3f4a;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+    text-align: left;
+    font-size: 0.95rem;
+    cursor: pointer;
+  }
+  .preview-url {
+    font-size: 0.75rem;
+    color: var(--muted);
+    word-break: break-all;
+    margin-top: 8px;
+    padding: 8px;
+    background: #0f1115;
+    border-radius: 8px;
+    display: none;
+  }
+  .preview-url.show { display: block; }
+  footer {
+    text-align: center;
+    color: var(--muted);
+    font-size: 0.7rem;
+    padding: 10px 16px 30px;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>📅 WhatsApp Agendado</h1>
+  <p>Cria uma tarefa no TickTick com o link pronto do WhatsApp</p>
+</header>
+
+<main>
+
+  <div class="card" id="config-card">
+    <label for="apiToken">Token da API do TickTick</label>
+    <input type="password" id="apiToken" placeholder="Cole seu Personal API Token aqui">
+    <p class="help">
+      Gere em <strong>ticktick.com</strong> → avatar → Settings → Account → API Token.
+      Fica salvo apenas neste navegador (localStorage).
+    </p>
+
+    <label for="projectSelect">Lista / Projeto de destino</label>
+    <select id="projectSelect">
+      <option value="">Inbox (padrão)</option>
+    </select>
+    <button class="btn-ghost" id="loadProjectsBtn" type="button">Carregar minhas listas</button>
+
+    <div class="status" id="configStatus"></div>
+  </div>
+
+  <div class="card">
+    <label for="contactName">Nome do contato</label>
+    <input type="text" id="contactName" placeholder="Ex: Maria Silva">
+
+    <label for="contactPhone">Número (com DDI e DDD, só dígitos)</label>
+    <input type="tel" id="contactPhone" placeholder="Ex: 5521999999999" inputmode="numeric">
+    <button class="contact-select-btn" id="pickContactBtn" type="button">📇 Selecionar da agenda do telefone</button>
+    <p class="help" id="contactApiHelp"></p>
+
+    <label for="message">Mensagem</label>
+    <textarea id="message" placeholder="Digite a mensagem que será pré-preenchida no WhatsApp..."></textarea>
+
+    <div class="row">
+      <div>
+        <label for="taskDate">Data</label>
+        <input type="date" id="taskDate">
+      </div>
+      <div>
+        <label for="taskTime">Hora</label>
+        <input type="time" id="taskTime">
+      </div>
+    </div>
+
+    <label for="reminderOffset">Lembrete</label>
+    <select id="reminderOffset">
+      <option value="PT0S">No horário exato</option>
+      <option value="-PT5M">5 minutos antes</option>
+      <option value="-PT15M">15 minutos antes</option>
+      <option value="-PT30M">30 minutos antes</option>
+      <option value="-PT60M">1 hora antes</option>
+    </select>
+
+    <div class="preview-url" id="urlPreview"></div>
+
+    <button class="btn-primary" id="createTaskBtn" type="button">Criar tarefa no TickTick</button>
+    <button class="btn-wa" id="openNowBtn" type="button">Abrir no WhatsApp agora (teste)</button>
+
+    <div class="status" id="taskStatus"></div>
+  </div>
+
+  <div class="card">
+    <details>
+      <summary>Como funciona</summary>
+      <p class="help">
+        1. Você preenche contato, mensagem e horário.<br>
+        2. O app monta a URL <code>https://wa.me/&lt;numero&gt;?text=&lt;mensagem&gt;</code>.<br>
+        3. Essa URL vai no campo "content" de uma tarefa criada via API do TickTick, com o vencimento (dueDate) no horário escolhido.<br>
+        4. No horário, o TickTick notifica você. Ao abrir a tarefa e tocar no link, o WhatsApp abre com a mensagem pronta — só falta tocar em "Enviar".
+      </p>
+    </details>
+  </div>
+
+</main>
+
+<footer>PWA local &middot; nenhum dado enviado a servidores próprios</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

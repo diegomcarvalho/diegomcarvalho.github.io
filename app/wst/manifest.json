@@ -1,0 +1,20 @@
+{
+  "name": "WhatsApp Agendado via TickTick",
+  "short_name": "WA Agendado",
+  "description": "Cria tarefas no TickTick com link pronto do WhatsApp para envio agendado",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0f1115",
+  "theme_color": "#25D366",
+  "lang": "pt-BR",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
