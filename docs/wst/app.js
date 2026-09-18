@@ -98,10 +98,33 @@ function buildWhatsAppUrl() {
   return `https://wa.me/${phone}?text=${encodedText}`;
 }
 
+// Escapa colchetes/parênteses do texto visível do link para não quebrar a sintaxe Markdown [texto](url).
+function escapeMarkdownLinkText(text) {
+  return text.replace(/([\[\]()])/g, '\\$1');
+}
+
+// Gera o link em formato Markdown: [texto visível](url). O texto visível é a própria
+// mensagem (ou o nome do contato, se preferir); a URL é a do wa.me já codificada.
+function buildMarkdownLink(url, linkLabel) {
+  if (!url) return '';
+  const label = escapeMarkdownLinkText(linkLabel || 'Enviar no WhatsApp');
+  return `[${label}](${url})`;
+}
+
+function getLinkLabel() {
+  const text = message.value.trim();
+  // Usa a própria mensagem como texto do link, truncando se for muito longa.
+  if (text) {
+    return text.length > 60 ? `${text.slice(0, 57)}...` : text;
+  }
+  return 'Enviar no WhatsApp';
+}
+
 function updateUrlPreview() {
   const url = buildWhatsAppUrl();
   if (url) {
-    urlPreview.textContent = url;
+    const markdown = buildMarkdownLink(url, getLinkLabel());
+    urlPreview.textContent = markdown;
     urlPreview.classList.add('show');
   } else {
     urlPreview.classList.remove('show');
@@ -195,10 +218,11 @@ createTaskBtn.addEventListener('click', async () => {
 
   const dueDate = toTickTickDate(dateStr, timeStr);
   const projectId = projectSelect.value || undefined;
+  const markdownLink = buildMarkdownLink(url, getLinkLabel());
 
   const task = {
     title: `Enviar WhatsApp para ${name}`,
-    content: url,
+    content: markdownLink,
     dueDate: dueDate,
     startDate: dueDate,
     timeZone: getTimeZone(),
@@ -218,7 +242,7 @@ createTaskBtn.addEventListener('click', async () => {
       `Tarefa criada! Vai notificar em ${dateStr} ${timeStr}. Toque na notificação e depois no link para abrir o WhatsApp.`,
       'ok'
     );
-    saveRecentTask({ name, dueDate: `${dateStr} ${timeStr}`, url });
+    saveRecentTask({ name, dueDate: `${dateStr} ${timeStr}`, url, markdownLink });
   } catch (err) {
     showStatus(taskStatus, `Erro ao criar tarefa: ${err.message}`, 'error');
   }
